@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('Funcionalidade: Contato', () => {
   beforeEach(() => {
     cy.visit('index.html');
